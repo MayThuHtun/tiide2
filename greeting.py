@@ -9,3 +9,6 @@ def greeting():
 @a.route("/tiide")
 def tiide():
     return "I am from Computer University Mandalay"
+
+if __name__ == "__main__":
+    a.run(debug=True)
